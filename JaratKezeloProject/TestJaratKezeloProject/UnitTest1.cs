@@ -1,6 +1,6 @@
 namespace TestJaratKezeloProject
 {
-    public class UnitTest1
+    public class JaratKezeloTest
     {
         [Fact]
         public void Test1()

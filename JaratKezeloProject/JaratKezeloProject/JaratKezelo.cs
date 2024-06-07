@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 
 namespace JaratKezeloProject
-{
+{   
     public class JaratKezelo
     {
         private class Jaratok

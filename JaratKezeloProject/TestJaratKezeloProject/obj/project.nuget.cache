@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Li7IeLV+PX9mWxC8XpvRWhZjMw14ipdUm627viCDYsuzTtkB2Kt4o4GFeOovj5m27DCuHocucMxMz+SPvtJYYQ==",
+  "dgSpecHash": "nQvBB1qGKDcfEMj19WyxXfFhl4I5SVehkDsBwRaieN+nSvr7VMxQzC9EyIGuYpwvkyD/eHZ+KmC5dB7OouC5Ug==",
   "success": true,
-  "projectFilePath": "C:\\Users\\szjan\\Source\\Repos\\SzDavid-jaratkezelo-c-\\JaratKezeloProject\\TestJaratKezeloProject\\TestJaratKezeloProject.csproj",
+  "projectFilePath": "C:\\Users\\szjan\\source\\repos\\SzDavid-jaratkezelo-c-\\JaratKezeloProject\\TestJaratKezeloProject\\TestJaratKezeloProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\szjan\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\szjan\\.nuget\\packages\\microsoft.codecoverage\\17.5.0\\microsoft.codecoverage.17.5.0.nupkg.sha512",

@@ -9,7 +9,7 @@ namespace JaratKezeloProject
 {   
     public class JaratKezelo
     {
-        private class Jaratok
+        private class Jarat
         {
             public string JaratSzam { get; }
             public string RepterHonnan { get; }
@@ -17,7 +17,7 @@ namespace JaratKezeloProject
             public DateTime Indulas { get; }
             public int Keses { get; set; }
 
-            public Jaratok(string jaratSzam, string repterHonnan, string repterHova, DateTime indulas)
+            public Jarat(string jaratSzam, string repterHonnan, string repterHova, DateTime indulas)
             {
                 JaratSzam = jaratSzam;
                 RepterHonnan = repterHonnan;
@@ -27,7 +27,7 @@ namespace JaratKezeloProject
             }
         }
 
-        private readonly Dictionary<string, Jaratok> jaratok = new Dictionary<string, Jaratok>();
+        private readonly Dictionary<string, Jarat> jaratok = new Dictionary<string, Jarat>();
 
         public void UjJarat(string jaratSzam, string repterHonnan, string repterHova, DateTime indulas)
         {
@@ -36,7 +36,7 @@ namespace JaratKezeloProject
                 throw new ArgumentException("Már létezik ilyen járatszám.");
             }
 
-            jaratok[jaratSzam] = new Jaratok(jaratSzam, repterHonnan, repterHova, indulas);
+            jaratok[jaratSzam] = new Jarat(jaratSzam, repterHonnan, repterHova, indulas);
         }
 
         public void Keses(string jaratSzam, int keses)
